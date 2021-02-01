@@ -1,0 +1,79 @@
+body {
+    background:url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: #666;
+    width: 90%;
+    max-width: 500px;
+    position: absolute;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px #212121;
+}
+.title{
+    border-bottom: 1px solid #555;
+    margin-bottom: 10px;
+    color:#aaa;
+}
+h1,h2,input{
+    font-family: 'Raleway', sans-serif;
+    color: #555;
+    line-height: 40px;
+    outline: none;
+
+}
+.userInput{
+    display: block;
+    margin: 25px 0;
+}
+.scoreTitle{
+   
+    width: 50%;
+    float: left;
+}
+.timerTitle{
+   
+    width: 50%;
+    float: left;
+}
+.button{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.buttons button{
+    width: 40%; 
+  
+    
+}
+.otvet {
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #212121;
+    padding:0 5px ;
+    margin-right: 10px;
+}
+
+button{
+    cursor: pointer;
+    margin: 5px 15px;
+    background: #aaa;
+    border-radius: 5px;
+    font-family:  'Lora', serif;
+    padding: 0 5px;
+    line-height: 40px;
+    background: none;
+    border: 1px solid transparent;
+}
+button:hover{
+    border: 1px solid #555;
+}
